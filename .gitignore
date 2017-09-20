@@ -7,3 +7,5 @@ build
 android/libs
 android/build.properties
 android/dist
+android/.classpath
+android/java-sources.txt
