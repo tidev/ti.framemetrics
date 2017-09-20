@@ -1,0 +1,17 @@
+---
+name: Module.FrameInfo
+summary: Proxy containing performance information about single rendered frame.
+since: "7.0.0"
+platforms: [android]
+extends: Titanium.Proxy
+
+methods:
+  - name: getMetric
+    summary: Returns the value for the passed identifier.
+    parameters:
+      - name: identifier
+        summary: Identifier to get a metric for.
+        type: Number
+        constants: Module.FrameMetrics.*
+    returns:
+      type: Number
