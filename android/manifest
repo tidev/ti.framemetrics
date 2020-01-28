@@ -2,9 +2,9 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
+version: 2.0.0
 apiversion: 4
-architectures: arm64-v8a armeabi-v7a x86
+architectures: arm64-v8a armeabi-v7a x86 x86_64
 description: FrameMetrics
 author: Yordan Banev, Axway Appcelerator
 license: Specify your license
@@ -15,4 +15,4 @@ name: FrameMetrics
 moduleid: ti.framemetrics
 guid: 6fb32602-974a-4311-b154-dfa06b9717ef
 platform: android
-minsdk: 7.0.0
+minsdk: 9.0.0
