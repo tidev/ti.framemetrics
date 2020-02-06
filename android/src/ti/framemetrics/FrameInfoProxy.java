@@ -7,8 +7,9 @@
 package ti.framemetrics;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.view.FrameMetrics;
+
+import androidx.annotation.RequiresApi;
 
 import org.appcelerator.kroll.KrollProxy;
 import org.appcelerator.kroll.annotations.Kroll;
